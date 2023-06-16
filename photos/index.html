@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="author" content="Pedro Henrique Vianna dos Santos">
     <meta name="description" content="Front end developer. Beauty is in simplicity">
-    <link href="styles/style.css" rel="stylesheet">
+    <link href="../styles/style.css" rel="stylesheet">
     <link  href="https://fonts.googleapis.com/css?family=Open+Sans"  rel="stylesheet">
     <meta name="twitter:title" content="Pedro dos Santos Portfolio"> <!--how will it look on tt?-->
     <link rel="icon" href="favicon.png" type="image/x-icon">
@@ -16,12 +16,12 @@
   <body>
     <header>
       <h1> PEDRO DOS SANTOS </h1>
-      <img src="logo-ps.svg" alt="logo PS">
+      <img src="../logo-ps.svg" alt="logo PS">
       <nav>
         <ul>
-          <li><span>Home</span></li>
+          <li><a href="../index.html">Home</a></li>
           <li><a href="#">Get started</a></li>
-          <li><a href="photos/index.html">Photos</a></li>
+          <li><span>Photos</span></li>
           <li><a href="#">Gear</a></li>
           <li><a href="#">Forum</a></li>
         </ul>
@@ -32,13 +32,12 @@
     </header>
     
     
-    <p> Welcome to my portfolio. </p>
-    
-        <p>Here you can find some of  my <strong>work</strong></p>
-        <ul>
-            <li><a href="earthy-endurance/index.html">earthy endurance</a></li>
-        </ul>
-    
+    <picture>
+      <source media="(max-width: 799px)" srcset="../images/trip-400w.jpg">
+      <source media="(min-width:800px)" srcset="../images/trip-800w.jpg">
+      <img src="trip-800w.jpg" alt="Gi, Hermes e Elisa na croacia">
+
+    </picture>
 
     
     </body>
