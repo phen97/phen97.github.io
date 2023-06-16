@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Multiple format video example</title>
+  </head>
+  <body>
+    <h1>Below is a video that will play in all modern browsers</h1>
+
+    <video controls>
+      <source src="rabbit320.mp4" type="video/mp4">
+      <source src="rabbit320.webm" type="video/webm">
+      <!--"the browser will go through the <source> elements and play the first one that it has the codec to support. Including WebM and MP4 sources should be enough to play your video on most platforms and browsers these days."-->
+
+      <!--The ***type*** attribute contains the MIME type of the file specified by the <source>, and browsers can use the type to immediately skip videos they don't understand. If type isn't included, browsers will load and try to play each file until they find one that works, which obviously takes time and is an unnecessary use of resources.-->
+      <p>Your browser doesn't support HTML5 video. Here is a <a href="rabbit320.mp4">link to the video</a> instead.</p> 
+    </video>
+  </body>
+</html>
