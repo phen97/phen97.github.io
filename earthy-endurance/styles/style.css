@@ -1,20 +1,52 @@
 html {
-
+    background-color: lightgray;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body {
-
+header{
+    display: inline-flex;
 }
 
-h1 {
+    header h1{
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+    
+  nav {
+    height: 50px;
+    flex: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-top: 0;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
 
+  nav ul {
+    padding: 0;
+    list-style-type: none;
+    flex: 2;
+    display: inline;
+  }
+
+  nav li {
+    display: inline;
+    text-align: left;
+    flex: 1;
+  }
+
+body{
+    margin: 2%;
+    padding: 5%;
 }
 
-p,
-li {
+  .presentation{
+    background-color: rgb(206, 100, 19);
+    padding: 20px;
+  }
 
-}
-
-img {
-
-}
+  .center{
+    vertical-align: middle;
+  }
