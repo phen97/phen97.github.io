@@ -8,9 +8,9 @@
     <meta name="author" content="Pedro Henrique Vianna dos Santos">
     <meta name="description" content="Front end developer. Beauty is in simplicity">
     <link href="styles/style.css" rel="stylesheet">
-    <meta name="twitter:title" content="Pedro dos Santos Portfolio"> <!--how will it look on tt?-->
+    <meta name="twitter:title" content="Pedro dos Santos Photography"> <!--how will it look on tt?-->
     <link rel="icon" href="favicon.png" type="image/x-icon">
-    <title> Pedro dos Santos </title>
+    <title> Pedro dos Santos Photography </title>
     <script src="scripts/main.js" defer></script> <!-- defer - loads java after parsing HTML-->
   </head>
 
@@ -22,26 +22,23 @@
 
       <nav>
         <ul>
-          <li><span>Home</span></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About me</a></li>
-          <li><a href="photos.html">Photography</a></li>
+          <li><span>Photography</span></li>
           <li><a href="projects.html">Projects</a></li>
+          <button onclick="goLight()">☀</button>
         </ul>
       </nav>
-      <button onclick="goLight()">☀</button>
     </header>
     
-    <main>
-      <p> Welcome to my portfolio. </p>
-
-      <p>I believe beauty lies in simplicity.</p>
-
-    </main>
     
+    <picture>
+      <source media="(max-width: 799px)" srcset="images/trip-400w.jpg">
+      <source media="(min-width:800px)" srcset="images/trip-800w.jpg">
+      <img src="trip-800w.jpg" alt="Gi, Hermes e Elisa na croacia">
 
-    
+    </picture>
 
-    <footer>all rights</footer>
     
     </body>
 </html>

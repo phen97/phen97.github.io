@@ -27,9 +27,9 @@
      inkscape:document-units="px"
      showgrid="false"
      units="px"
-     inkscape:zoom="9.296"
-     inkscape:cx="12.370912"
-     inkscape:cy="20.385112"
+     inkscape:zoom="2.324"
+     inkscape:cx="-15.060241"
+     inkscape:cy="47.977625"
      inkscape:window-width="1366"
      inkscape:window-height="697"
      inkscape:window-x="-8"
@@ -39,21 +39,7 @@
      width="120.94489px"
      lock-margins="false" />
   <defs
-     id="defs4385">
-    <filter
-       style="color-interpolation-filters:sRGB;"
-       inkscape:label="Invert"
-       id="filter1083"
-       x="0"
-       y="0"
-       width="1"
-       height="1">
-      <feColorMatrix
-         values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 2 0 "
-         result="color2"
-         id="feColorMatrix1081" />
-    </filter>
-  </defs>
+     id="defs4385" />
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
@@ -61,7 +47,7 @@
     <g
        id="g831"
        transform="matrix(0.25576389,0,0,0.25576389,0.14111074,0.14111071)"
-       style="stroke-width:3.90986;filter:url(#filter1083)">
+       style="stroke-width:3.90986">
       <g
          id="g4496"
          transform="matrix(0.94634779,0,0,0.94634779,12.379207,-8.3793118)"
